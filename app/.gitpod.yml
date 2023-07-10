@@ -1,5 +1,0 @@
-image: gitpod/workspace-mysql
-
-tasks:
-  - init: mysql -u root < ./assets/sql/db.sql ;
-
