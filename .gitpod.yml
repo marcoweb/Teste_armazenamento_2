@@ -1,6 +1,6 @@
 image: gitpod/workspace-mysql
 
 tasks:
-  - init: mysql -u root < ./app/assets/sql/db.sql
+  - init: mysql -u root < ./assets/sql/db.sql
   - command: "docker-compose up -d"
 
