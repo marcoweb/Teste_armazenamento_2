@@ -2,7 +2,7 @@
 
 require_once './vendor/autoload.php';
 
-use Src\MySQLConnection\MySQLConnection;
+use app\Src\MySQLConnection\MySQLConnection;
 use PDO;
 
 $bd = new MySQLConnection;
