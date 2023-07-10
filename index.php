@@ -11,7 +11,7 @@ $comando = $bd->prepare('SELECT * FROM media');
 $comando->execute();
 $medias = $comando->fetchAll(PDO::FETCH_ASSOC);
 
-include ('.app/includes/header.php')
+include ('./app/includes/header.php')
 ?>
 
 <table border="1px">
@@ -30,6 +30,6 @@ include ('.app/includes/header.php')
     <?php endforeach ?>
 </table>
 
-<?php include('./includes/header.php'); ?>
+<?php include('./app/includes/header.php'); ?>
 
 
