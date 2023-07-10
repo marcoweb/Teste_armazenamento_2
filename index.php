@@ -2,7 +2,7 @@
 
 require_once './vendor/autoload.php';
 
-use Src\MySQLConnection\MySQLConnection;
+use app\Src\MySQLConnection\MySQLConnection;
 use PDO;
 
 $bd = new MySQLConnection;
@@ -11,7 +11,7 @@ $comando = $bd->prepare('SELECT * FROM media');
 $comando->execute();
 $medias = $comando->fetchAll(PDO::FETCH_ASSOC);
 
-include ('./includes/header.php')
+include ('.app/includes/header.php')
 ?>
 
 <table border="1px">
