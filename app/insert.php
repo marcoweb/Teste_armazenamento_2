@@ -5,7 +5,7 @@ if (isset($_FILES['musica'])) {
 }
 
 
-include('.app/includes/header.php') ?>
+include('./includes/header.php') ?>
 
 <form action="./insert.php" method="POST" enctype="multipart/form-data">
     <input type="file" name="musica">
