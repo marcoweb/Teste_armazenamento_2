@@ -1,6 +1,6 @@
 <?php
 
-    namespace src\MySQLConnection;
+    namespace app\MySQLConnection;
     
     class MySQLConnection extends \PDO{
         public function __construct(){

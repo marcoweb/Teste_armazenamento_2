@@ -1,5 +1,4 @@
-CREATE DATABASE dados;
-USE dados;
+USE application;
 
 CREATE TABLE media(
     id INT AUTO_INCREMENT PRIMARY KEY,
